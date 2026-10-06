@@ -17,3 +17,5 @@ A simple web application for managing student tasks.
 - HTML
 - CSS
 - JavaScript
+
+Git Revert Demonstration
