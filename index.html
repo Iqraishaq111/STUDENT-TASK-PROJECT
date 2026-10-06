@@ -11,22 +11,22 @@
     <div class="container">
         <h1>Student Task Manager</h1>
 
-        <div class="task-input">
-            <input type="text" placeholder="Enter a task">
-            <button>Add Task</button>
+        <div class="task-form">
+            <input type="text" id="taskTitle" placeholder="Enter task title">
+
+            <textarea id="taskDescription" placeholder="Enter task description"></textarea>
+
+            <button id="addTaskBtn">Add Task</button>
         </div>
 
-        <div class="search">
-            <input type="text" placeholder="Search tasks">
-        </div>
+        <div class="tasks">
+            <h2>My Tasks</h2>
 
-        <ul class="task-list">
-            <li>
-                Complete Git Assignment
-                <button>Complete</button>
-                <button>Delete</button>
-            </li>
-        </ul>
+            <div class="task">
+                <h3>Complete Git Assignment</h3>
+                <p>Finish the Git and GitHub assignment.</p>
+            </div>
+        </div>
     </div>
 
     <script src="script.js"></script>
